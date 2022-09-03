@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
 .header{
-    color: blue;
+    color: grey;
+}
+a:hover{
+    color : black;
 }
