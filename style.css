@@ -65,10 +65,9 @@ html{
     color: white;
     font-size: 30px;
     text-align: center;
-    top: -10%;
 }
 #CUERPO1{
-    background: linear-gradient(to left,rgb(0, 0, 0, 0.8) 50%,gray);
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.8),45%,rgba(0,0,0,0)),url(Imagen2.jpg);
     width: 100%;
     height: 750px;
     right: 0;
@@ -79,13 +78,13 @@ html{
     position: absolute;
     color:white;
     width: 48%;
-    top: 100px;
+    top: 130px;
     margin: 15px;
     right:0;
-    font-size: 25px;
+    font-size: 35px;
 }
 #CUERPO2{
-    background: linear-gradient(to right,rgb(0, 0, 0, 0.8) 50%,wheat);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),45%,rgba(0,0,0,0)),url(imagen3.jpg);
     width: 100%;
     height: 750px;
     position: relative;
@@ -97,36 +96,94 @@ html{
     top: 100px;
     margin: 15px;
     left:0;
-    font-size: 25px;
+    font-size: 35px;
 }
-#CUERPO3{
-    background: linear-gradient(to left,rgb(0, 0, 0, 0.8) 50%,gray);
-    width: 100%;
-    height: 750px;
-    position: relative;
-}
-#CUERPO3 p{
+#CUERPO2 p dd{
     position: absolute;
     color:white;
     width: 48%;
     top: 100px;
     margin: 15px;
-    right:0;
-    font-size: 25px;
+    left:0;
+    font-size: 35px;
 }
-#CUERPO4{
-    background: linear-gradient(to top,rgb(0, 0, 0, 0.8) 25%,wheat);
+#CUERPO3{
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.8),45%,rgba(0,0,0,0)),url(Imagen4.jpg);
     width: 100%;
     height: 750px;
     position: relative;
 }
-#CUERPO4 p{
+#CUERPO3 p1{
     position: absolute;
     color:white;
-    text-align: center;
+    width: 48%;
+    top: 150px;
     margin: 15px;
+    right:0;
+    font-size: 30px;
+}
+#CUERPO3 p2{
+    position: absolute;
+    color:white;
+    width: 48%;
+    top: 350px;
+    margin: 15px;
+    right:0;
+    font-size: 30px;
+}
+#CUERPO3 p3{
+    position: absolute;
+    color:white;
+    width: 48%;
+    top: 450px;
+    margin: 15px;
+    right:0;
+    font-size: 30px;
+}
+#CUERPO3 dd1{
+    position: absolute;
+    color:white;
+    width: 48%;
+    top: 245px;
+    right:0;
     font-size: 25px;
-    bottom: 75px;
+}
+#CUERPO3 dd2{
+    position: absolute;
+    color:white;
+    width: 48%;
+    top: 400px;
+    right:0;
+    font-size: 25px;
+}
+#CUERPO3 dd3{
+    position: absolute;
+    color:white;
+    width: 48%;
+    top: 500px;
+    right:0;
+    font-size: 25px;
+}
+#CUERPO4{
+    
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.8)25%,rgba(0,0,0,0)),url(Imagen5.jpg);
+}
+#C4c{
+    position: relative;
+    color:white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#C4c #TEL img{
+    margin-left: 27%;
+}
+#C4c #MAIL img{
+    margin-left: 35%;
 }
 #SUBR{
     color:white;
@@ -155,10 +212,9 @@ html{
     font-size: 60px;
     font-style: italic;
     text-align: center;
-    top: -75px;
+    top: 0 px;
     left: 0;
     position: relative;
-    margin-left: 15px;
     z-index: 2;
 }
 #SUBRAYADOR{
